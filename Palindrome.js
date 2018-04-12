@@ -1,4 +1,4 @@
-function isPalindrom(string)
+function isPalindrome(string)
 {
     string = string.toLowerCase();
     var charactersArr = string.split("");
@@ -13,4 +13,4 @@ function isPalindrom(string)
     
 }
 
-isPalindrom("Madam, I'm Adam");
+isPalindrome("Madam, I'm Adam");
