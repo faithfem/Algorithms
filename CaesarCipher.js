@@ -31,3 +31,5 @@ for(var i = 0; i<lowerCaseString.length; i++){
 }
     return newString;
 }
+
+CaesarCipher("Zoo Keeper", 2);
