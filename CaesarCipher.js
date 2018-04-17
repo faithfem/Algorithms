@@ -1,15 +1,7 @@
 function CaesarCipher(str, num)
 {
-    var lowerCaseString = str.LowerCase();
-    var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
-    
-    for (var i = 0; i<lowerCaseString.length; i++){
-        var currentLetter = lowerCaseString[i];
-        if(currentLetter ===""){
-            newString +=currentLetter;
-            continue;
-        }
-        
-    }
-    
+//Takes in 2 parameters; a string and a number
+//The string is moved the number of spots dictated by the number
+//eg if the parameters are (bark, 1) then b ecomes c, a becomes b, r is s, k is l
+
 }
