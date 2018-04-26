@@ -23,11 +23,11 @@ for(var i = 0; i < lowerCaseString.length; i++){
     if(newIndex > 25) newIndex = newIndex - 26; //loop code
     if(newIndex < 0) newIndex = newIndex + 26;
     
-    /*if(str[i] === str[i].toUpperCase()){
+    if(str[i] === str[i].toUpperCase()){
         newString += alphabet[newIndex].toUpperCase();
     }
     
-    else newString += alphabet[newIndex];*/
+    else newString += alphabet[newIndex];
 }
     return newString;
 }
